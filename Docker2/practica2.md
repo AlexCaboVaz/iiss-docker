@@ -78,7 +78,7 @@ Para poder seguir con la práctica debemos de comprobar que el contenedor esta v
 - A continuacion con el mismo comando que utilziamos en la primera parte, accedemos a las terminales de los contenedores, consultado la ip y haciendo ping desde Ubuntu1 a Ubuntu2. Y comprobamos que no funciona.
 
 ![Image text](https://github.com/AlexCaboVaz/iiss-docker/blob/main/Docker2/Parte2_pregunta1.png)
-![Image text](https://github.com/AlexCaboVaz/iiss-docker/blob/main/Docker2/p12.png)
+![Image text](https://github.com/AlexCaboVaz/iiss-docker/blob/main/Docker2/noping.png)
 
 - Que no funcione es debido aque Ubuntu2, no lo conectamos a la red, si os fijais no usamos el mismo comando que con ubuntu1, para eso debemos eliminar el contenedor Ubuntu2 y crearlo de nuevo.
 
@@ -92,4 +92,4 @@ Para poder seguir con la práctica debemos de comprobar que el contenedor esta v
 
 - Tras esto volvemos a realizar ping y vemos como ahira si se realiza, esto es debido a que ambos estan en la misma red.
 
-![Image text](https://github.com/AlexCaboVaz/iiss-docker/blob/main/Docker2/Parte2_pregunta2.png)
+![Image text](https://github.com/AlexCaboVaz/iiss-docker/blob/main/Docker2/ping.png)
